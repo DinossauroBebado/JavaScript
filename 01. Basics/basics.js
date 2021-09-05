@@ -117,3 +117,6 @@ function multiplicar(n1,n2) {
 let multi = multiplicar(2,4);
 
 console.log(multi);
+
+
+// Objeto aprofundamento 
