@@ -90,9 +90,30 @@ const dinos = ["velociraptor", "Tiranossauro","estegossauro"];
 
 console.log(dinos[0]);//start at zero
 
+//objetos --> dicionario
+
+const paises = {peru:"turquia", japao: "cuba" }
+console.log(paises.peru );
+
 
 //typeof equivalente a type()
 
 
 console.log(typeof 3);
 console.log(typeof "Montoia");
+
+//undefined equivalente a None
+
+
+
+//Funções-------------------------------------------------
+
+
+
+function multiplicar(n1,n2) {
+  return n1*n2 ;
+}
+
+let multi = multiplicar(2,4);
+
+console.log(multi);
