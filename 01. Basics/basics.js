@@ -30,8 +30,7 @@ console.log(z);
 //let
 // não pode redeclarar o let
 let carName;
-
-let carName = 'fusca';
+carName = 'fusca';
 // let carName = "focus";
 console.log(carName);
 
@@ -39,3 +38,33 @@ console.log(carName);
 //nao muda
 
 const PI = 3.141592653589793;
+//operadores
+
+//atribuir
+
+var a = 5 ;
+var b = 3 ;
+
+//soma
+var soma = a + b ;
+console.log("soma " + soma);
+
+//subtração
+var sub = a - b ;
+console.log("subtração " + sub);
+
+//mult
+var mult = a*b ;
+console.log("multipliacação " + mult);
+
+//exponecial
+var exp = a**b ;
+console.log("exponecial " + exp);
+
+//divisao
+var div = a/b ;
+console.log("divisao " + div);
+
+//resto
+var rest = a%b ;
+console.log("resto " + rest);
