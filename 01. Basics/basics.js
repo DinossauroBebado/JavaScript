@@ -68,3 +68,31 @@ console.log("divisao " + div);
 //resto
 var rest = a%b ;
 console.log("resto " + rest);
+
+//DataTypes---------------------------------------
+
+let d = 16 + 4 + " Capivarão" ;
+
+console.log(d);
+
+let f = "Capivarão "+  16 + 4 ;
+
+console.log(f);
+
+//notação cientifica
+
+let ciencia = 123e5 ;
+console.log(ciencia);
+
+//arrays
+
+const dinos = ["velociraptor", "Tiranossauro","estegossauro"];
+
+console.log(dinos[0]);//start at zero
+
+
+//typeof equivalente a type()
+
+
+console.log(typeof 3);
+console.log(typeof "Montoia");
