@@ -26,3 +26,16 @@ var t  = 2 ;
 var z = u+t ;
 console.log(z);
 //---------------------------------------------------------
+
+//let
+// não pode redeclarar o let
+let carName;
+
+let carName = 'fusca';
+// let carName = "focus";
+console.log(carName);
+
+//const
+//nao muda
+
+const PI = 3.141592653589793;
