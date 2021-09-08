@@ -119,4 +119,17 @@ let multi = multiplicar(2,4);
 console.log(multi);
 
 
+var g = "dinossauro"
+var k = " bebado"
+
+var sln = g.length;
+console.log(g+k);
+
+console.log(sln);
+
+var pos = g.search("dino")
+
+console.log(pos);
+
+console.log(g.slice(0,4))
 // Objeto aprofundamento
