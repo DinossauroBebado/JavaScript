@@ -131,5 +131,26 @@ var pos = g.search("dino")
 
 console.log(pos);
 
-console.log(g.slice(0,4))
+console.log(g.slice(0,4));
+
+var numero = 3.14;
+
+var num = 3 ;
+
+
+var Num = num.toString()
+
+//-----------------------------------------------
+
 // Objeto aprofundamento
+
+var car = ["Porshe","Ford",'BMW',"mate"];
+console.log(car);
+
+car.pop();
+
+console.log(car);
+
+car.push("marquinhos");
+
+console.log(car);
