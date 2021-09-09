@@ -162,6 +162,21 @@ console.log(car);
 car.reverse();
 
 console.log(car);
+var text = "";
+var i;
+for(i=0; i<car.length; i++){
+ text += car[i] + "<br>";
+}
 
+document.getElementById("cars").innerHTML = text;
 
-console.log(math.pi);
+var str = "this is my string"
+var n = str.search("string")
+
+document.getElementById("search").innerHTML = n
+
+function myFunck(){
+   str = document.getElementById("replace").innerHTML;
+   txt = str.replace("website","canibal dinner");
+   str = document.getElementById("replace").innerHTML = txt;
+}
