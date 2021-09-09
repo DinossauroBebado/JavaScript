@@ -180,3 +180,11 @@ function myFunck(){
    txt = str.replace("website","canibal dinner");
    str = document.getElementById("replace").innerHTML = txt;
 }
+
+var hello;
+
+hello = () =>{
+  return "hello world" ;
+}
+
+document.getElementById('function').innerHTML = hello() ;
