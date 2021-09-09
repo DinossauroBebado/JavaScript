@@ -188,3 +188,17 @@ hello = () =>{
 }
 
 document.getElementById('function').innerHTML = hello() ;
+
+
+
+
+class Car {
+  constructor(name,year){
+    this.name = name ;
+    this.year = year ;
+  }
+}
+
+myCar = new Car("celta",1989);
+
+document.getElementById('classes').innerHTML = myCar.name + "  " + myCar.year;
