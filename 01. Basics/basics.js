@@ -154,3 +154,11 @@ console.log(car);
 car.push("marquinhos");
 
 console.log(car);
+
+car.sort() ;
+
+console.log(car);
+
+car.reverse();
+
+console.log(car);
